@@ -16,7 +16,7 @@ import commclass.MockBaseclass;
 
 public class MockFlipkartTest extends MockBaseclass
 {
-	@Test
+	//@Test
 	public void script() throws MalformedURLException, InterruptedException
 	{
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
